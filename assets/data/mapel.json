@@ -1,0 +1,50 @@
+{
+  "mapel": [
+    {
+      "nama": "Matematika",
+      "icon": {
+        "img": "assets/img/icon-matematika.png",
+        "src": "https://www.flaticon.com/free-icon/calculator_3233478?term=math&page=1&position=60",
+        "designer": "freepik",
+        "alt": "icon-kalkulator"
+      }
+    },
+    {
+      "nama": "Fisika",
+      "icon": {
+        "img": "assets/img/icon-fisika.png",
+        "src": "https://www.flaticon.com/free-icon/relativity_3247965?term=physics&page=1&position=28",
+        "designer": "freepik",
+        "alt": "icon-papan dengan rumus e=mc2"
+      }
+    },
+    {
+      "nama": "Biologi",
+      "icon": {
+        "img": "assets/img/icon-biologi.png",
+        "src": "https://www.flaticon.com/free-icon/plant-pot_3227712?term=plant%20pot&page=1&position=5",
+        "designer": "freepik",
+        "alt": "icon-tanaman dalam pot"
+      }
+    },
+    {
+      "nama": "Kimia",
+      "icon": {
+        "img": "assets/img/icon-kimia.png",
+        "src": "https://www.flaticon.com/free-icon/lab-tool_2933877?term=chemical&page=1&position=24",
+        "designer": "goodware",
+        "alt": "icon-gelas kimia"
+      }
+    },
+    {
+      "nama": "Bahasa Inggris",
+      "icon": {
+        "img": "assets/img/icon-bahasaInggris.png",
+        "src": "https://www.flaticon.com/free-icon/dictionary_1902726?term=english&page=1&position=7",
+        "designer": "smalllikeart",
+        "alt": "icon-kamus"
+      }
+    }
+  ],
+  "posisi": "mapel"
+}

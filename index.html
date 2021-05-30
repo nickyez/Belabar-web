@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Bersama</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <script src="assets/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav">
+            <div>
+              <img
+                src="assets/img/logo.png"
+                alt="belajar bareng"
+                class="icon"
+              />
+            </div>
+            <ul>
+              <li><a href="#">Beranda</a></li>
+              <li><a href="#fitur">Fitur</a></li>
+              <li>
+                <div class="dropdown">
+                  <a href="#materi">Materi</a>
+                  <div class="dropdown-content">
+                    <a href="#">Matematika</a>
+                    <a href="#">Fisika</a>
+                    <a href="#">Biologi</a>
+                    <a href="#">Kimia</a>
+                    <a href="#">Bahasa Inggris</a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#biodata">Biodata</a></li>
+            </ul>
+            <div class="menu-toggle">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <header>
+        <div class="container">
+          <div class="wrapper-flex">
+            <div class="flex-basis img-header">
+              <img
+                src="assets/img/Subject.png"
+                alt="Pensil dengan balon text berisi gambar mata pelajar"
+                class="img-header"
+              />
+            </div>
+            <div class="flex-basis title-header text-white">
+              <h1>BelaBar</h1>
+              <p>Platform belajar gratis buat anak sekolahan</p>
+              <div class="button content-center">
+                <a href="#">Daftar Sekarang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <article id="fitur">
+        <div class="container">
+          <h2>
+            3 pondasi belajar yang ada di BelaBar
+          </h2>
+          <p>
+            Berikut merupakan 3 pondasi yang kami siapkan untuk membantumu
+            belajar agar mendapatkan nilai yang memuaskan
+          </p>
+          <section>
+            <div class="wrapper-content flex-wrap">
+              <div class="card bg-white box">
+                <h4>Modul</h4>
+                <p>
+                  Belajar menggunakan modul yang dibuat secara ringkas dan mudah
+                  dimengerti. Modul yang digunakan juga sesuai dengan kurikulum
+                  saat ini
+                </p>
+              </div>
+              <div class="card bg-white box">
+                <h4>Ujian</h4>
+                <p>
+                  Setelah belajar tentunya ada ujian yang akan membantumu untuk
+                  menerapkan apa yang telah kamu pelajari.
+                </p>
+              </div>
+              <div class="card bg-white box">
+                <h4>Random Quiz</h4>
+                <p>
+                  Jenuh belajar? kami menyediakan random quiz yang dimana soal
+                  tersebut dibuat seperti cerita yang menarik dan mampu melatih
+                  kemampuan anda
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <article id="materi">
+        <div class="container">
+          <section>
+            <h2 class="text-white">Mata pelajaran</h2>
+            <div class="wrapper-content flex-wrap" id="daftar-mapel"></div>
+          </section>
+        </div>
+      </article>
+
+      <aside id="biodata">
+        <div class="container">
+          <div class="wrapper-content flex-wrap">
+            <header>
+              <h2>Biodata</h2>
+              <figure>
+                <img
+                  src="assets/img/bio-pp.jpg"
+                  alt="bio-profil"
+                  class="content-center"
+                />
+              </figure>
+            </header>
+            <section class="vertical-center">
+              <table class="card box">
+                <tr>
+                  <th>Nama</th>
+                  <td>Nicky Erlangga Setiawan</td>
+                </tr>
+                <tr>
+                  <th>Alamat</th>
+                  <td>Jalan Apokat 1 No.56,Pelem-Kertosono,Nganjuk</td>
+                </tr>
+                <tr>
+                  <th>No.Telepon</th>
+                  <td>0812-4955-3534</td>
+                </tr>
+                <tr>
+                  <th>Email</th>
+                  <td>nickyerlangga@gmail.com</td>
+                </tr>
+              </table>
+            </section>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="wrapper-content">
+          <p class="text-white">
+            Dibuat dengan sepenuh hati dan berikut attribute buat icon dan
+            gambar yang saya ambil di internet
+          </p>
+          <br />
+          <button id="OpenAttribute">Klik disini</button>
+          <div id="attribute" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <table id="list-attribute" class="table-attribute">
+                <tr>
+                  <th>alt</th>
+                  <th>letak</th>
+                  <th>designer</th>
+                  <th>link</th>
+                </tr>
+                <tr>
+                  <td>Pensil dengan balon text berisi gambar mata pelajar</td>
+                  <td>header</td>
+                  <td>Freepik</td>
+                  <td>
+                    <a
+                      href="https://www.freepik.com/free-vector/education-background-with-pencils-subjects-icons_714491.htm#page=1&query=education%20pencil%20subject&position=9"
+                      >Klik
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
